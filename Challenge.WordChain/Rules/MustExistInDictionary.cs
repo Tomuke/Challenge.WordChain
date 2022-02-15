@@ -8,7 +8,7 @@ public class MustExistInDictionary : IRule
 
     public MustExistInDictionary(IWordDictionary dictionary)
     {
-        _dictionary = dictionary;
+        _dictionary = dictionary ?? throw new ArgumentNullException(nameof(dictionary));
     }
     
     public bool IsValid(string start, string end)

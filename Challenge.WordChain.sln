@@ -1,6 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
+# 
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Challenge.WordChain", "Challenge.WordChain\Challenge.WordChain.csproj", "{C3AFB4BB-149F-4B76-B8CD-B76B80C4D9C6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Challenge.WordChain.Tests", "Challenge.WordChain.Tests\Challenge.WordChain.Tests.csproj", "{CCC89554-C02D-4670-89D4-067986ACC13F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -12,5 +15,9 @@ Global
 		{C3AFB4BB-149F-4B76-B8CD-B76B80C4D9C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C3AFB4BB-149F-4B76-B8CD-B76B80C4D9C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C3AFB4BB-149F-4B76-B8CD-B76B80C4D9C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CCC89554-C02D-4670-89D4-067986ACC13F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCC89554-C02D-4670-89D4-067986ACC13F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCC89554-C02D-4670-89D4-067986ACC13F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCC89554-C02D-4670-89D4-067986ACC13F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
