@@ -12,7 +12,7 @@ public class WordChain
 
     public WordChain(IWordDictionary dictionary)
     {
-        this._dictionary = dictionary;
+        this._dictionary = dictionary ?? throw new ArgumentNullException(nameof(IWordDictionary));
     }
     
     public void AddRule(IRule rule) => this._rules.Add(rule);
